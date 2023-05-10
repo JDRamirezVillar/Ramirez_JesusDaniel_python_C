@@ -1,0 +1,18 @@
+A = input ('¿Cuál es tu nombre(s)?')
+B = input ('¿Cuál es tu primer apellido?')
+C = input ('¿Cual es tu segundo apellido?')
+D = int(input ('¿En qué año naciste?'))
+F = input ('¿En que mes y dia naciste?')
+
+print('Este es tu nombre completo en mayúsculas:', (A + B + C).upper())
+print('Este es tu nombre completo en minusculas:', (A + B + C).lower())
+print('Esta es tu fecha de nacimiento:', (D + F))
+
+año_actual = 2022
+print('Esta es tu edad:', (año_actual - D))
+print('Tu nombre completo tiene vocales')
+print('Tu nombre completo tiene letras')
+print('Tu edad es un carácter tipo número?', type(D))
+print('Tu nombre completo es un cáracter tipo alfanumérico?', type(A, B, C))
+print('Tu edad en 10 años será:'((año_actual - D) + 10))
+print('La media de tu edad actual y tu edad en 20 años es:', ((año_actual + D)+ 20) / 2)
